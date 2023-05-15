@@ -26,10 +26,11 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Height="23" Margin="43,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="506"/>
+        <TextBox x:Name="txtFilePath" HorizontalAlignment="Left" Height="23" Margin="113,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="436"/>
         <Button x:Name="btnOpenFile" Content="開啟檔案" HorizontalAlignment="Left" Margin="554,10,0,0" VerticalAlignment="Top" Width="148" Height="23" Background="#FFDFF7CF" Click="btnOpenFile_Click"/>
         <Slider x:Name="sliVolume" HorizontalAlignment="Left" Margin="568,392,0,0" VerticalAlignment="Top" Width="120" LargeChange="0.05" Maximum="1" TickFrequency="0.01" Value="0.5" ValueChanged="sliVolume_ValueChanged" Background="#FF140E7C"/>
         <Slider x:Name="sliProgress" HorizontalAlignment="Left" Margin="43,354,0,0" VerticalAlignment="Top" Width="694
-                " Height="26" Background="#FF86860E" PreviewMouseLeftButtonUp="sliProgress_PreviewMouseLeftButtonUp"/>
+                " Height="26" Background="#FF86860E" PreviewMouseLeftButtonUp="sliProgress_PreviewMouseLeftButtonUp" Maximum="9"/>
+        <TextBox x:Name="txtTime" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="84"/>
     </Grid>
 </Window>
